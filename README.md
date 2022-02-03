@@ -28,7 +28,7 @@ Upon completion, students will:
 
 # Meeting Times
 
-Thursday – 7:10 - 9:40, classes via Webex (links to be distributed)
+Thursday – 7:10 - 9:40, classes via Webex (email if you need the link)
 
 01/31/2022 - 05/17/2022
 
