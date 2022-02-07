@@ -34,10 +34,3 @@ unique_word = [w.translate(table) for w in book]
 
 #count unique word number
 print("unique word number:" + str(len(set(unique_word))))
-
-
-# In[ ]:
-
-
-
-
