@@ -31,6 +31,8 @@ In Thunder, there is also a special data structure, named block. It is an interm
 
 
 ## Reference:
-[1] Li, Xiang et al. Functional Neuroimaging in the New Era of Big Data. Genomics, proteomics & bioinformatics vol. 17,4 (2019): 393-401. doi:10.1016/j.gpb.2018.11.005
+[[1] Li, Xiang et al. Functional Neuroimaging in the New Era of Big Data. Genomics, proteomics & bioinformatics vol. 17,4 (2019): 393-401. doi:10.1016/j.gpb.2018.11.005 ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6943787/)
 
-[2] Freeman J et al. Mapping brain activity at scale with cluster computing. Nat Methods. 2014 Sep;11(9):941-50. doi: 10.1038/nmeth.3041. Epub 2014 Jul 27. PMID: 25068736.
+[[2] Freeman J et al. Mapping brain activity at scale with cluster computing. Nat Methods. 2014 Sep;11(9):941-50. doi: 10.1038/nmeth.3041. Epub 2014 Jul 27. PMID: 25068736.](https://pubmed.ncbi.nlm.nih.gov/25068736/)
+
+[[3] https://databricks.com/session/a-platform-for-large-scale-neuroscience](https://databricks.com/session/a-platform-for-large-scale-neuroscience)
