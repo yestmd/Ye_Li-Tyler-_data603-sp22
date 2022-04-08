@@ -16,8 +16,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         header = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36'}
         while True:
             resp_dict = requests.get('https://www.reddit.com/r/AskReddit.json', headers=header).json()
-            payload = {}
+            
             for topic in resp_dict.get('data', {}).get('children', []):
-                payload[topic.get('data').get('id')] = topic.get('data').get('score')
-            conn.sendall(str.encode(json.dumps(payload)+'\n'))
+                payload = {'id': topic.get('data').get('id'),
+                           'score': topic.get('data').get('score')}
+                conn.sendall(str.encode(json.dumps(payload)+'\n'))
             time.sleep(3)
