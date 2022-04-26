@@ -44,4 +44,5 @@ In Thunder, there is also a special data structure, named block. It is an interm
 
 [[2] Freeman J et al. Mapping brain activity at scale with cluster computing. Nat Methods. 2014 Sep;11(9):941-50. doi: 10.1038/nmeth.3041. Epub 2014 Jul 27. PMID: 25068736.](https://pubmed.ncbi.nlm.nih.gov/25068736/)
 
+[[3] figure cited from https://spark.apache.org/docs/latest/cluster-overview.html](https://spark.apache.org/docs/latest/cluster-overview.html)
 
