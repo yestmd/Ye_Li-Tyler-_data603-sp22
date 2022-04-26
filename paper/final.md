@@ -4,6 +4,12 @@ No doubt, neuroactivity is one of the fundamental pieces of the cognitive functi
 
 ## Spark, the foundation structure of Thunder
 
+Spark, or Apache Spark is the widely used analytics engine designed to big data processing. As the following figure shown, the Spark applications include three components: Driver Program, Cluster Manager and Worker Node. Once SparkContext connected to Cluster Manager, Spark will grasp nodes in cluster environment and send your code to executors. With the code sent to executors, SparkContext than sends tasks to executors for computations. These structure set can run independently on cluster with its own executor without sharing data. 
+
+![figure for spark](https://user-images.githubusercontent.com/54827137/165408041-b237e397-bab2-4ab7-90e2-d5fcc7d0e7e4.png)
+
+One of the advantages of Spark is the using of Resilient Distributed Dataset (RDD). This data format can be immutable split across a cluster. And then the split chunks can be computed parallelly in a batch process. Plus, with large memory’s help, the intermediate computation can be processed in the In-memory storage method for these split data. These features help Spark applications running under high speed when processing large-scale data, such as the data generated in neuroscience field.
+
 
 ## The main structure of Thunder module
 
@@ -38,4 +44,4 @@ In Thunder, there is also a special data structure, named block. It is an interm
 
 [[2] Freeman J et al. Mapping brain activity at scale with cluster computing. Nat Methods. 2014 Sep;11(9):941-50. doi: 10.1038/nmeth.3041. Epub 2014 Jul 27. PMID: 25068736.](https://pubmed.ncbi.nlm.nih.gov/25068736/)
 
-[[3] https://databricks.com/session/a-platform-for-large-scale-neuroscience](https://databricks.com/session/a-platform-for-large-scale-neuroscience)
+
