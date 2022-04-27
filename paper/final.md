@@ -106,8 +106,6 @@ We load the image by using engine=sc and without sc, and run these manipulating 
 
 <img src="https://user-images.githubusercontent.com/54827137/165429286-ff2bb9ac-382a-4a64-9cff-52a01c622b5c.png" width="45%"/><img src="https://user-images.githubusercontent.com/54827137/165429295-aba8e74c-f947-48c4-9c51-0fa990cc640e.png" width="45%"/>
 
-<img src="https://user-images.githubusercontent.com/54827137/165429295-aba8e74c-f947-48c4-9c51-0fa990cc640e.png" width="45%"/>
-
 
 
 
