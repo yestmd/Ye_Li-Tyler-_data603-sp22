@@ -43,7 +43,10 @@ In Thunder, there is also a special data structure, named block. It is an interm
 In this section, some sample image data will be run in Thunder moduel on Databricks platform. The Databricks is a web-based platform for running Spark. By developing the 2nd generation Tungsten engine, the Databricks platform push the Spark 2.0 work even faster. Databricks provide the community edition for free. In the community edition, a cluster can be created with around 16GB RAM and 2core CPU. 
 
 
-
+<p align="center">
+  <img scr="https://user-images.githubusercontent.com/54827137/165428319-d1735328-84a1-4faf-9785-a889bd6d5301.png">
+ </p>
+ 
 ![cluster name](https://user-images.githubusercontent.com/54827137/165428319-d1735328-84a1-4faf-9785-a889bd6d5301.png)
 
 Before import Thunder package, we will need to install it and the showit package, which is used for display image data. 
