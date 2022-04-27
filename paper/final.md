@@ -47,9 +47,17 @@ Before import Thunder package, we will need to install it and the showit package
 
 ![install showit](https://user-images.githubusercontent.com/54827137/165418517-14c98671-7cdb-4445-92b5-aaf285242fe2.png)
 
-After the Thunder package successfully installed, we can import it. 
+After the Thunder package successfully installed, we can import it and the image display module. 
 
 ![import thunder](https://user-images.githubusercontent.com/54827137/165418664-61761e2c-d277-4ddf-a71f-538fc317ab6a.png)
+
+![import showit](https://user-images.githubusercontent.com/54827137/165418884-2ba2f2c8-6c0e-4874-bf9d-3c09a8f7a2ae.png)
+
+In the Thunder package, there are some example data that we can work with. Here, the example data, fish, is a 3D volume image data. In the Thunder package, we can load the data as images or series by using *.images.fromexample* or *.series.fromexample*. In the fromexample function, we can use *engine* to load image locally or using sc, for SparkContext in Spark. 
+![local load](https://user-images.githubusercontent.com/54827137/165419679-60d3e308-e54a-45d7-8dc2-3f84af03582f.png)
+![spark load](https://user-images.githubusercontent.com/54827137/165419683-61e93429-6333-4ad3-bf48-99e5d1de5937.png)
+
+
 
 
 ## Conclusion
