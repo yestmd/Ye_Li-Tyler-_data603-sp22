@@ -65,12 +65,8 @@ The example data, fish, is a 3D volume image data.
 Next, we will use the function in the Thunder toolbox to do some image manipulating and compare the time spent between Spark mode and local mode.
 The manipulating function we used here is *median_filter()*, *gaussian_filter()*, *max_projection()*.
 
-The median filter uses a non-linear filter to remove the noise in the image. 
+The median filter uses a non-linear filter to remove the noise in the image. Gaussian filter uses a low pass filter to smooth the image. Both of functions are used at every image in the 3D volume. 
 ![median filter](https://user-images.githubusercontent.com/54827137/165427332-288f65a4-d2d7-4f3d-b054-3d2be4fc8a9e.png)
-
-
-
-Gaussian filter uses a low pass filter to smooth the image. Both of functions are used at every image in the 3D volume. 
 ![gaussian filter](https://user-images.githubusercontent.com/54827137/165427355-66359efc-63e3-4431-805e-ea6fd2fcd84f.png)
 
 
