@@ -110,7 +110,7 @@ We load the image by using engine=sc and without sc, and run these manipulating 
 
 
 
-![sc mode](https://user-images.githubusercontent.com/54827137/165434598-a506baa8-0461-417e-a68d-b81dda555bff.png)
+<p align="center">![sc mode](https://user-images.githubusercontent.com/54827137/165434598-a506baa8-0461-417e-a68d-b81dda555bff.png)</p>
 
 ![local mode](https://user-images.githubusercontent.com/54827137/165434619-aa7ba165-95bb-4a5a-a18b-b1d35f998185.png)
 
