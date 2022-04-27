@@ -1,6 +1,8 @@
 # Thunder--A potential key to open the chamber of secrets of neuroscience
 
-No doubt, neuroactivity is one of the fundamental pieces of the cognitive function. With the development of neuroscience research technical, researchers are getting better at recording high-resolution and real-time imaging of neural firing or cognitive behavior data. In this case, massive data sets are generated, which is flooding the researchers. Because of that, neuroscience research field have been recognized as an important field which could benefit from the big data method. However, there are still some general challenges to use these large-scale data in neuroscience field, such as data collection and sharing, data infrastructure construction, and data analysis methods [1].  Apche Spark, or Spark is a essential analytics engine when handling large-scale data. It provides a possible solution for neuroscience researchers to handle their large experiment data. Running on Spark engine, Howard Hughes Medical Institute (HHMI) developed a big data toolbox, Thunder [2]. The usage of Thunder maybe a key of the chamber of secrets of neuroscience. 
+No doubt, neuroactivity is one of the fundamental pieces of the cognitive function. With the development of neuroscience research technical, researchers are getting better at recording high-resolution and real-time imaging of neural firing or cognitive behavior data. In this case, massive data sets are generated, which is flooding the researchers. Because of that, neuroscience research field have been recognized as an important field which could benefit from the big data method. 
+
+However, there are still some general challenges to use these large-scale data in neuroscience field, such as data collection and sharing, data infrastructure construction, and data analysis methods [1].  Apche Spark, or Spark is a essential analytics engine when handling large-scale data. It provides a possible solution for neuroscience researchers to handle their large experiment data. Running on Spark engine, Howard Hughes Medical Institute (HHMI) developed a big data toolbox, Thunder [2]. The usage of Thunder maybe a key of the chamber of secrets of neuroscience. 
 
 ## Spark, the foundation structure of Thunder
 
@@ -13,7 +15,7 @@ One of the advantages of Spark is the using of Resilient Distributed Dataset (RD
 
 By applying the powerful capability of Spark in processing big data, Thunder is developed as a Python tool sets integrated on Spark platform, which focuses on processing spatial or temporal data sets. 
 
-## The main structure of Thunder module
+## The main structure of Thunder toolbox
 
 Thunder is established from a modular collection. The usage of Thunder currently focuses on image and time series data based on Python code. The core Thunder package is for defining data structures and read/write patterns. The main analysis modules are archived by related packages:
 
@@ -116,8 +118,7 @@ We load the image by using engine=sc and without sc, and run these manipulating 
 
 
 ## Conclusion
-Here, we introduced the Thunder python toolbox for imaging processing. By combining Spark engine, Thunder function shows a highly improved computing speed comparing to local mode. 
-
+In this paper, after introducing the basic concept of Apche Spark, we descripted the structure of Thunder toolbox and the data types that can be used in Thunder toolbox in neuroscience file. Next, we run the Thunder in the Databricks, a web-based platform to compare the time consumption between using Spark engine and without Spark engine. The result suggests a more than ten times shorter computation time when using Spark engine. Also, it is worth to point out that the Thunder is open source, and requires a minimal Python experience to use it, which give opportunity to more neuroscience researchers to use it to analysis their data. No doubt, with more and more knowledge of Python and RDD concept contributed to neuroscience community, the using of Thunder or other toolbox will be used in the future, which would help researchers to uncover the secret of neuroscience chamber. 
 
 ## Reference:
 [[1] Li, Xiang et al. Functional Neuroimaging in the New Era of Big Data. Genomics, proteomics & bioinformatics vol. 17,4 (2019): 393-401. doi:10.1016/j.gpb.2018.11.005 ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6943787/)
