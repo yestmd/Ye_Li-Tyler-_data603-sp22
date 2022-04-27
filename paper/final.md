@@ -45,7 +45,7 @@ In this section, some sample image data will be run in Thunder moduel on Databri
 
 <p align="center">
   <img scr="https://user-images.githubusercontent.com/54827137/165428319-d1735328-84a1-4faf-9785-a889bd6d5301.png">
- </p>
+</p>
  
 ![cluster name](https://user-images.githubusercontent.com/54827137/165428319-d1735328-84a1-4faf-9785-a889bd6d5301.png)
 
