@@ -10,6 +10,7 @@ Spark, or Apache Spark is the widely used analytics engine designed to big data 
 
 One of the advantages of Spark is the using of Resilient Distributed Dataset (RDD). This data format can be immutable split across a cluster. And then the split chunks can be computed parallelly in a batch process. Plus, with large memory’s help, the intermediate computation can be processed in the In-memory storage method for these split data. These features help Spark applications running under high speed when processing large-scale data, such as the data generated in neuroscience field.
 
+By applying the powerful capability of Spark in processing big data, Thunder is developed as a Python tool sets integrated on Spark platform, which focuses on processing spatial or temporal data sets. 
 
 ## The main structure of Thunder module
 
@@ -35,6 +36,16 @@ Besides, the series data type is a collection of one-dimensional records with a 
 In Thunder, there is also a special data structure, named block. It is an intermediate data type between images and series. It can be used to represent the data with spatial and time feature. 
 
 ## Apply Thunder in Databricks environment
+
+In this section, some sample image data will be run in Thunder moduel on Databricks platform. The Databricks is a web-based platform for running Spark. By developing the 2nd generation Tungsten engine, the Databricks platform push the Spark 2.0 work even faster. Databricks provide the community edition for free. In the community edition, a cluster can be create with around 16GB RAM and 2core CPU. 
+
+![cluster name](https://user-images.githubusercontent.com/54827137/165418245-5c5a3516-6a62-474e-a780-8aed36d0e7e6.png)
+
+Before import Thunder package, we will need to install it and the showit package, which is used for display image data. 
+![import thunder](https://user-images.githubusercontent.com/54827137/165418500-0afcfa29-6619-4a5e-8242-a38fa2bcd893.png)
+![install showit](https://user-images.githubusercontent.com/54827137/165418517-14c98671-7cdb-4445-92b5-aaf285242fe2.png)
+
+
 ## Conclusion
 
 
