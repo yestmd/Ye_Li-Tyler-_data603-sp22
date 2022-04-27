@@ -41,7 +41,8 @@ In this section, some sample image data will be run in Thunder moduel on Databri
 
 
 
-![cluster name](https://user-images.githubusercontent.com/54827137/165418245-5c5a3516-6a62-474e-a780-8aed36d0e7e6.png)
+![cluster name](https://user-images.githubusercontent.com/54827137/165428319-d1735328-84a1-4faf-9785-a889bd6d5301.png)
+
 
 
 
