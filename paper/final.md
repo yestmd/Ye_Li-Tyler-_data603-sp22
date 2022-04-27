@@ -106,9 +106,11 @@ The max projection is to compute the maximum projection along the z dimension.
 We load the image by using engine=sc and without sc, and run these manipulating function here. The time comsuption shown at Spark mode is much faster than local mode. 
 (1.92 ms vs 22.6 ms; 1.77 ms vs 18.2 ms; 1.62 ms vs 17.9 ms)
 
-<img src="https://user-images.githubusercontent.com/54827137/165429286-ff2bb9ac-382a-4a64-9cff-52a01c622b5c.png" width="45%"/><img src="https://user-images.githubusercontent.com/54827137/165429295-aba8e74c-f947-48c4-9c51-0fa990cc640e.png" width="45%"/>
 
 
+![sc mode](https://user-images.githubusercontent.com/54827137/165434598-a506baa8-0461-417e-a68d-b81dda555bff.png)
+
+![local mode](https://user-images.githubusercontent.com/54827137/165434619-aa7ba165-95bb-4a5a-a18b-b1d35f998185.png)
 
 
 
