@@ -114,7 +114,7 @@ We load the image by using engine=sc and without sc, and run these manipulating 
 
 
 ## Conclusion
-
+Here, we introduced the Thunder python toolbox for imaging processing. By combining Spark engine, Thunder function shows a highly improved computing speed comparing to local mode. 
 
 
 ## Reference:
