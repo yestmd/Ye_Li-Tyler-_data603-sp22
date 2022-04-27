@@ -109,9 +109,11 @@ We load the image by using engine=sc and without sc, and run these manipulating 
 (1.92 ms vs 22.6 ms; 1.77 ms vs 18.2 ms; 1.62 ms vs 17.9 ms)
 
 
+
 computation with Spark engine
 
 ![sc mode](https://user-images.githubusercontent.com/54827137/165434598-a506baa8-0461-417e-a68d-b81dda555bff.png)
+
 
 computation locally
 
