@@ -100,7 +100,7 @@ The median filter uses a non-linear filter to remove the noise in the image. Gau
 The max projection is to compute the maximum projection along the z dimension. 
 
 
-<img src="https://user-images.githubusercontent.com/54827137/165427369-0a698e66-1f22-4399-9bb2-f925ed30cb55.png" width="50%"/>
+<img src="https://user-images.githubusercontent.com/54827137/165427369-0a698e66-1f22-4399-9bb2-f925ed30cb55.png" width="45%"/>
 
 
 We load the image by using engine=sc and without sc, and run these manipulating function here. The time comsuption shown at Spark mode is much faster than local mode. 
