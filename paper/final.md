@@ -42,8 +42,14 @@ In this section, some sample image data will be run in Thunder moduel on Databri
 ![cluster name](https://user-images.githubusercontent.com/54827137/165418245-5c5a3516-6a62-474e-a780-8aed36d0e7e6.png)
 
 Before import Thunder package, we will need to install it and the showit package, which is used for display image data. 
+
 ![import thunder](https://user-images.githubusercontent.com/54827137/165418500-0afcfa29-6619-4a5e-8242-a38fa2bcd893.png)
+
 ![install showit](https://user-images.githubusercontent.com/54827137/165418517-14c98671-7cdb-4445-92b5-aaf285242fe2.png)
+
+After the Thunder package successfully installed, we can import it. 
+
+![import thunder](https://user-images.githubusercontent.com/54827137/165418664-61761e2c-d277-4ddf-a71f-538fc317ab6a.png)
 
 
 ## Conclusion
