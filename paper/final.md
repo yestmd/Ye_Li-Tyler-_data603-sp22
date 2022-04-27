@@ -39,39 +39,55 @@ In Thunder, there is also a special data structure, named block. It is an interm
 
 In this section, some sample image data will be run in Thunder moduel on Databricks platform. The Databricks is a web-based platform for running Spark. By developing the 2nd generation Tungsten engine, the Databricks platform push the Spark 2.0 work even faster. Databricks provide the community edition for free. In the community edition, a cluster can be created with around 16GB RAM and 2core CPU. 
 
+
 ![cluster name](https://user-images.githubusercontent.com/54827137/165418245-5c5a3516-6a62-474e-a780-8aed36d0e7e6.png)
+
 
 Before import Thunder package, we will need to install it and the showit package, which is used for display image data. 
 
+
 ![import thunder](https://user-images.githubusercontent.com/54827137/165418500-0afcfa29-6619-4a5e-8242-a38fa2bcd893.png)
+
 
 ![install showit](https://user-images.githubusercontent.com/54827137/165418517-14c98671-7cdb-4445-92b5-aaf285242fe2.png)
 
+
 After the Thunder package successfully installed, we can import it and the image display module. 
+
 
 ![import thunder](https://user-images.githubusercontent.com/54827137/165418664-61761e2c-d277-4ddf-a71f-538fc317ab6a.png)
 
+
 ![import showit](https://user-images.githubusercontent.com/54827137/165418884-2ba2f2c8-6c0e-4874-bf9d-3c09a8f7a2ae.png)
 
+
 In the Thunder package, there are some example data that we can work with. In the Thunder package, we can load the data as images or series by using *images.fromexample()* or *series.fromexample()*. In the fromexample function, we can use *engine* to load image locally or using sc, for SparkContext in Spark. 
+
 
 ![local load](https://user-images.githubusercontent.com/54827137/165419679-60d3e308-e54a-45d7-8dc2-3f84af03582f.png)
 ![spark load](https://user-images.githubusercontent.com/54827137/165419683-61e93429-6333-4ad3-bf48-99e5d1de5937.png)
 
+
 The example data, fish, is a 3D volume image data. 
 
+
 ![sample photo](https://user-images.githubusercontent.com/54827137/165420110-cc2b7345-1f5b-4a7a-bc81-297a6e71c400.png)
+
 
 Next, we will use the function in the Thunder toolbox to do some image manipulating and compare the time spent between Spark mode and local mode.
 The manipulating function we used here is *median_filter()*, *gaussian_filter()*, *max_projection()*.
 
+
 The median filter uses a non-linear filter to remove the noise in the image. Gaussian filter uses a low pass filter to smooth the image. Both of functions are used at every image in the 3D volume. 
+
 
 ![median filter](https://user-images.githubusercontent.com/54827137/165427332-288f65a4-d2d7-4f3d-b054-3d2be4fc8a9e.png)
 ![gaussian filter](https://user-images.githubusercontent.com/54827137/165427355-66359efc-63e3-4431-805e-ea6fd2fcd84f.png)
 
 
+
 The max projection is to compute the maximum projection along the z dimension. 
+
 ![max projection](https://user-images.githubusercontent.com/54827137/165427369-0a698e66-1f22-4399-9bb2-f925ed30cb55.png)
 
 
