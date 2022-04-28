@@ -125,9 +125,33 @@ _**correlate()**_, which calculate the correlation between two or many one-dimen
 _**flatten()**_, which reshape all dimensions or collapse the pixel dimensions into a single one; 
 _**sample()**_, which pick random sample from records, et al. 
 
+Here, we can still use the *fish*, dataset. We can load this dataset by using _**.series**_, but not _**.image**_ this time. We will also load Spark engine to run this series into Spark mode. 
+
+
+![load series](https://user-images.githubusercontent.com/54827137/165673614-3fcca799-6221-456a-9113-c8354b53f233.png)
+
+
+As we can see, since fish is a dataset with 20 3D volumne, the index shows as is a 1 D array, with lens of 20. 
+
+
+![s index](https://user-images.githubusercontent.com/54827137/165674103-15e2ca35-d75b-41ad-a99d-10286a91f8b8.png)
+
+
+Here, we want to test a correlation between a stimulation signal with 3D volume. First, we generated a random array data with 20 floats sample from univariate distribution for demo purpose. 
+
+
+![random array](https://user-images.githubusercontent.com/54827137/165674800-254154a1-aeca-4b81-a563-7c72b7d4b607.png)
+
+
+Next, we use the corrlated method to analyze the correlation between 3D volume and fake signal data. Since the fake signal data is a random, the correlation value should be close to 0, meaning no correlation. 
+
+
+![correlated](https://user-images.githubusercontent.com/54827137/165678593-766bce4a-45e1-4c6a-9246-7c38e730f60e.png)
+
+
 
 ## Conclusion
-In this paper, after introducing the basic concept of Apche Spark, we descripted the structure of Thunder toolbox and the data types that can be used in Thunder toolbox in neuroscience file. Next, we run the Thunder in the Databricks, a web-based platform to compare the time consumption between using Spark engine and without Spark engine. The result suggests a more than ten times shorter computation time when using Spark engine. Also, it is worth to point out that the Thunder is open source, and requires a minimal Python experience to use it, which give opportunity to more neuroscience researchers to use it to analysis their data. No doubt, with more and more knowledge of Python and RDD concept contributed to neuroscience community, the using of Thunder or other toolbox will be used in the future, which would help researchers to uncover the secret of neuroscience chamber. 
+In this paper, after introducing the basic concept of Apche Spark, we descripted the structure of Thunder toolbox and the data types that can be used in Thunder toolbox in neuroscience file. Next, we run the Thunder in the Databricks, a web-based platform to compare the time consumption between using Spark engine and without Spark engine. The result suggests a more than ten times shorter computation time when using Spark engine. Next, we test the correlation method using a series dataset.  Also, it is worth to point out that the Thunder is open source, and requires a minimal Python experience to use it, which give opportunity to more neuroscience researchers to use it to analysis their data. No doubt, with more and more knowledge of Python and RDD concept contributed to neuroscience community, the using of Thunder or other toolbox will be used in the future, which would help researchers to uncover the secret of neuroscience chamber. 
 
 ## Reference:
 [[1] Li, Xiang et al. Functional Neuroimaging in the New Era of Big Data. Genomics, proteomics & bioinformatics vol. 17,4 (2019): 393-401. doi:10.1016/j.gpb.2018.11.005 ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6943787/)
