@@ -120,10 +120,10 @@ computation locally
 
 ### series data type
 For series data, Thunder provides a list of methods to processing the series data, such as:
-center(), which subtract the mean either within or across records;
-correlate(), which calculate the correlation between two or many one-dimensional arrays;
-flatten (), which reshape all dimensions or collapse the pixel dimensions into a single one; 
-sample(), which pick random sample from records, et al. 
+_*center()*_, which subtract the mean either within or across records;
+_*correlate()*_, which calculate the correlation between two or many one-dimensional arrays;
+_*flatten()*_, which reshape all dimensions or collapse the pixel dimensions into a single one; 
+_*sample()*_, which pick random sample from records, et al. 
 
 
 ## Conclusion
