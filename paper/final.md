@@ -67,7 +67,7 @@ After the Thunder package successfully installed, we can import Thunder and the 
 ![import showit](https://user-images.githubusercontent.com/54827137/165418884-2ba2f2c8-6c0e-4874-bf9d-3c09a8f7a2ae.png)
 
 
-### Image datatype
+### Image data type
 In the Thunder package, there are some example data that we can work with. In the Thunder package, we can load the data as images or series by using *images.fromexample()* or *series.fromexample()*. In the fromexample function, we can use *engine* to load image locally or using sc, for SparkContext in Spark. 
 
 
@@ -118,6 +118,12 @@ computation locally
 ![local mode](https://user-images.githubusercontent.com/54827137/165434619-aa7ba165-95bb-4a5a-a18b-b1d35f998185.png)
 
 
+### series data type
+For series data, Thunder provides a list of methods to processing the series data, such as:
+center(), which subtract the mean either within or across records;
+correlate(), which calculate the correlation between two or many one-dimensional arrays;
+flatten (), which reshape all dimensions or collapse the pixel dimensions into a single one; 
+sample(), which pick random sample from records, et al. 
 
 
 ## Conclusion
