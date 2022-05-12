@@ -1,1 +1,3 @@
+This project used a EEG data while the partcipant is playing a video game. The different event in the game is recording associated with the EEG data. After pre-processing the raw EEG data, I try to build a model to predict the event by using the EEG data. The data is download from openneuro website to local storage. The link is here: https://openneuro.org/datasets/ds003517/versions/1.1.0/download. 
 
+The oringial data includes 17 partcipants EEG data. For demo purpose, here, I only analyze a result from 1 session of 1 participant, which is the sub-001 run 2nd EEG data. For this raw data, there are 8 files, named includes: **_sub-001_task-ContinuousVideoGamePlay_run-02..._** I uploaded these files into docker and run the following code.
